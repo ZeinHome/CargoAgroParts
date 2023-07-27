@@ -1,8 +1,9 @@
 const arrIcon = [
   {
-    icon: '../images/navigation/tractor.svg',
+    icon: 'https://github.com/ZeinHome/CargoAgroParts/blob/main/images/navigation/tractor.svg',
+    // icon: '../images/navigation/tractor.svg',
     title: 'Сільгосптехніка',
-    alt: 'brakeDiscs',
+    alt: 'tractor',
   },
   {
     icon: '../images/navigation/truck.svg',
