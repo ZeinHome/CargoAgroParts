@@ -3,6 +3,7 @@
   --white: #fff;
   --bg-primary: #585858;
   --bg-second: #3b3b3b;
+  --hover-text: #d6444a;
 }
 
 /* Reset and base styles  */
@@ -131,7 +132,7 @@ section {
   margin-left: auto;
   margin-right: auto;
 }
-
+/* header */
 .top-line {
   background-color: var(--bg-second);
 }
@@ -185,6 +186,8 @@ header .main-line {
 
 .swiper {
   width: 100%;
+
+  border-radius: 5px;
 }
 
 .swiper__img {
