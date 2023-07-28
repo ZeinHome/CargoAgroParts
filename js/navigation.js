@@ -36,19 +36,19 @@ const arrIcon = [
   },
 ];
 
-const navigation = document.querySelector('.navigation');
+// const navigation = document.querySelector('.navigation');
 
-function makeNavigation(arrIcon) {
-  return arrIcon
-    .map(obj => {
-      return `<li class="navigation__item">
-    <a href="" class="navigation__item">
-      <img src="${obj.icon}" alt="${obj.alt}" class="navigation__icon" />
-      <h2 class="navigation__title">${obj.title}</h2>
-    </a>
-  </li>`;
-    })
-    .join('');
-}
+// function makeNavigation(arrIcon) {
+//   return arrIcon
+//     .map(obj => {
+//       return `<li class="navigation__item">
+//     <a href="" class="navigation__item">
+//       <img src="${obj.icon}" alt="${obj.alt}" class="navigation__icon" />
+//       <h2 class="navigation__title">${obj.title}</h2>
+//     </a>
+//   </li>`;
+//     })
+//     .join('');
+// }
 
-navigation.insertAdjacentHTML('beforeend', makeNavigation(arrIcon));
+// navigation.insertAdjacentHTML('beforeend', makeNavigation(arrIcon));

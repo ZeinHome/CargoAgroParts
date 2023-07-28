@@ -203,5 +203,10 @@ header .main-line {
 }
 
 .navigation__title {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  color: #585858;
+
   margin-left: 20px;
 }
