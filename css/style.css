@@ -120,6 +120,9 @@ legend {
 section {
   padding: 20px 0;
 }
+.section-swiper {
+  padding: 5px 0;
+}
 
 .container {
   max-width: 1200px;
@@ -178,6 +181,26 @@ header .main-line {
   width: 28px;
   height: 29px;
 }
+/* Swiper */
+
+.swiper {
+  width: 100%;
+}
+
+.swiper__img {
+  width: 100%;
+  height: 475px;
+}
+
+@media screen and (max-width: 580px) {
+  .swiper {
+    height: 186px;
+  }
+  .swiper__img {
+    width: 100%;
+    height: 186px;
+  }
+}
 
 /* navigation */
 
@@ -206,7 +229,7 @@ header .main-line {
   font-weight: 500;
   font-size: 18px;
   line-height: 20px;
-  color: #585858;
+  color: var(--bg-primary);
 
   margin-left: 20px;
 }

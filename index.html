@@ -4,6 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
     <title>CargoAgroParts</title>
   </head>
   <body>
@@ -41,6 +47,66 @@
       </div>
     </header>
     <main>
+      <section class="section-swiper">
+        <div class="container">
+          <div class="swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="">
+                  <img
+                    src="./images/slider/sliderImg1.jpg"
+                    alt="slider images"
+                    class="swiper__img"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img
+                    src="./images/slider/sliderImg2.jpg"
+                    alt="slider images"
+                    class="swiper__img"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img
+                    src="./images/slider/sliderImg3.jpg"
+                    alt="slider images"
+                    class="swiper__img"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img
+                    src="./images/slider/sliderImg4.jpg"
+                    alt="slider images"
+                    class="swiper__img"
+                  />
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <img
+                    src="./images/slider/sliderImg5.jpg"
+                    alt="slider images"
+                    class="swiper__img"
+                  />
+                </a>
+              </div>
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+      </section>
       <section>
         <div class="container">
           <nav class="nav">
@@ -122,5 +188,7 @@
     </main>
 
     <!-- <script src="./js/navigation.js" type="module" defer></script> -->
+    <script src="./js/swiper.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   </body>
 </html>
