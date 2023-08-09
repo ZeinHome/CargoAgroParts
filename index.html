@@ -13,7 +13,7 @@
     <title>CargoAgroParts</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="top-line">
         <div class="container">
           <img src="./images/icon-user.png" alt="User" class="icon-user" />
@@ -22,7 +22,12 @@
             src="./images/icons-mobile.png"
             alt="mobile"
             class="icon-mobile"
+            data-contact-button
           />
+        </div>
+
+        <div class="wrapper-contact" data-contac>
+          <div data-contact-close>Close</div>
         </div>
       </div>
 
@@ -176,85 +181,85 @@
             </div>
           </div>
         </section>
+
         <section>
-          <div class="container">
-            <nav class="nav">
-              <ul class="navigation">
-                <li class="navigation__item">
-                  <a href="" class="navigation__item">
-                    <img
-                      src="./images/navigation/tractor.svg"
-                      alt="tractor"
-                      class="navigation__icon"
-                    />
-                    <h2 class="navigation__title">Сільгосптехніка</h2>
-                  </a>
-                </li>
-                <li class="navigation__item">
-                  <a href="" class="navigation__item">
-                    <img
-                      src="./images/navigation/truck.svg"
-                      alt="truck"
-                      class="navigation__icon"
-                    />
-                    <h2 class="navigation__title">Автотехніка</h2>
-                  </a>
-                </li>
-                <li class="navigation__item">
-                  <a href="" class="navigation__item">
-                    <img
-                      src="./images/navigation/trailer.svg"
-                      alt="trailer"
-                      class="navigation__icon"
-                    />
-                    <h2 class="navigation__title">Спецтехніка</h2>
-                  </a>
-                </li>
-                <li class="navigation__item">
-                  <a href="" class="navigation__item">
-                    <img
-                      src="./images/navigation/corn.svg"
-                      alt="corn"
-                      class="navigation__icon"
-                    />
-                    <h2 class="navigation__title">Посівний матеріал</h2>
-                  </a>
-                </li>
-                <li class="navigation__item">
-                  <a href="" class="navigation__item">
-                    <img
-                      src="./images/navigation/flour.svg"
-                      alt="flour"
-                      class="navigation__icon"
-                    />
-                    <h2 class="navigation__title">Добрива</h2>
-                  </a>
-                </li>
-                <li class="navigation__item">
-                  <a href="" class="navigation__item">
-                    <img
-                      src="./images/navigation/honey.svg"
-                      alt="honey"
-                      class="navigation__icon"
-                    />
-                    <h2 class="navigation__title">Захист рослин</h2>
-                  </a>
-                </li>
-                <li class="navigation__item">
-                  <a href="" class="navigation__item">
-                    <img
-                      src="./images/navigation/satellite.svg"
-                      alt="satellite"
-                      class="navigation__icon"
-                    />
-                    <h2 class="navigation__title">Точне землеробство</h2>
-                  </a>
-                </li>
-              </ul>
-            </nav>
-          </div>
+          <nav class="nav">
+            <ul class="navigation">
+              <li class="navigation__item">
+                <a href="" class="navigation__item">
+                  <img
+                    src="./images/navigation/tractor.svg"
+                    alt="tractor"
+                    class="navigation__icon"
+                  />
+                  <h2 class="navigation__title">Сільгосптехніка</h2>
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__item">
+                  <img
+                    src="./images/navigation/truck.svg"
+                    alt="truck"
+                    class="navigation__icon"
+                  />
+                  <h2 class="navigation__title">Автотехніка</h2>
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__item">
+                  <img
+                    src="./images/navigation/trailer.svg"
+                    alt="trailer"
+                    class="navigation__icon"
+                  />
+                  <h2 class="navigation__title">Спецтехніка</h2>
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__item">
+                  <img
+                    src="./images/navigation/corn.svg"
+                    alt="corn"
+                    class="navigation__icon"
+                  />
+                  <h2 class="navigation__title">Посівний матеріал</h2>
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__item">
+                  <img
+                    src="./images/navigation/flour.svg"
+                    alt="flour"
+                    class="navigation__icon"
+                  />
+                  <h2 class="navigation__title">Добрива</h2>
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__item">
+                  <img
+                    src="./images/navigation/honey.svg"
+                    alt="honey"
+                    class="navigation__icon"
+                  />
+                  <h2 class="navigation__title">Захист рослин</h2>
+                </a>
+              </li>
+              <li class="navigation__item">
+                <a href="" class="navigation__item">
+                  <img
+                    src="./images/navigation/satellite.svg"
+                    alt="satellite"
+                    class="navigation__icon"
+                  />
+                  <h2 class="navigation__title">Точне землеробство</h2>
+                </a>
+              </li>
+            </ul>
+          </nav>
         </section>
       </div>
+
       <section>
         <div class="container">
           <ul class="brand">
@@ -373,11 +378,24 @@
           </ul>
         </div>
       </section>
+
+      <section class="section-divider">
+        <div class="container">
+          <div class="wrapper-divider">
+            <img src="./images/work.png" alt="work" />
+            <p class="divider__text">
+              Наши сотрудники готовы помочь вам с подбором запчастей и
+              оформлением заказа. Для получения помощи достаточно просто нажать
+              на кнопку
+            </p>
+          </div>
+          <button class="divider__btn">Начать чат</button>
+        </div>
+      </section>
     </main>
 
-    <!-- <script src="./js/navigation.js" type="module" defer></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js" type="module"></script>
     <script src="./js/menu.js" type="module"></script>
-    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   </body>
 </html>
