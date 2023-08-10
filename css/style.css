@@ -391,20 +391,55 @@ header .main-line {
   background-color: var(--white);
 }
 /* contact us */
+.container-contact {
+  position: relative;
+}
+
+.contacts-us {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  white-space: nowrap;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.contacts__link {
+  color: var(--white);
+}
+.contacts__link:hover {
+  color: var(--hover-text);
+}
+.work_time {
+  max-width: 142px;
+  margin-top: 40px;
+  font-size: 16px;
+  line-height: 30px;
+}
 @media screen and (max-width: 1023px) {
   .wrapper-contact {
-    display: none;
-    position: fixed;
-    bottom: -10px;
-    left: 0;
-    background-color: var(--bg-primary);
-    overflow: auto;
-    padding: 20px;
+    position: absolute;
+    bottom: -210px;
+    left: -260px;
+    background-color: var(--bg-second);
+    overflow: hidden;
+    padding: 20px 50px;
     z-index: 50001;
+    border-radius: 0px 0px 6px 6px;
+    color: var(--white);
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    transform: translateY(-10px);
+    opacity: 0;
+    max-height: 0;
+    transition: transform 1s ease, opacity 1s ease, max-height 1s ease;
   }
   .is-open {
     display: flex;
     flex-direction: column;
+    transform: translateY(0);
+    opacity: 1;
+    max-height: 500px;
+    overflow: auto;
   }
 }
 
