@@ -9,6 +9,13 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
     />
+    <!-- Text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
 
     <title>CargoAgroParts</title>
   </head>
@@ -16,8 +23,78 @@
     <header class="header">
       <div class="top-line">
         <div class="container">
-          <img src="./images/icon-user.png" alt="User" class="icon-user" />
-          <img src="./images/logo.svg" alt="Logo" class="logo" />
+          <div class="menu-wrapper">
+            <img
+              src="./images/icons-menu.png"
+              alt="menu"
+              class="menu__icon"
+              data-menu-button
+            />
+
+            <div class="menu-container" data-menu>
+              <div class="wrapper-menu">
+                <h2 class="location">
+                  <img src="./images/menu-nav/google-map.png" alt="Mark" />
+                  <span>Днепр</span>
+                </h2>
+
+                <ul class="localization">
+                  <li class="localization__item">UA</li>
+                  <li class="localization__item">RU</li>
+                </ul>
+              </div>
+
+              <ul class="menu">
+                <li class="menu__item">
+                  <img
+                    src="./images/menu-nav/catalog.png"
+                    alt="catalog"
+                    class="menu__icon"
+                  />
+                  <h2 class="menu__title">Каталог</h2>
+                </li>
+                <li class="menu__item">
+                  <img
+                    src="./images/menu-nav/shop.png"
+                    alt="shop"
+                    class="menu__icon"
+                  />
+                  <h2 class="menu__title">Магазины</h2>
+                </li>
+                <li class="menu__item">
+                  <img
+                    src="./images/menu-nav/client.png"
+                    alt="client"
+                    class="menu__icon"
+                  />
+                  <h2 class="menu__title">Клиентам</h2>
+                </li>
+                <li class="menu__item">
+                  <img
+                    src="./images/menu-nav/service.png"
+                    alt="service"
+                    class="menu__icon"
+                  />
+                  <h2 class="menu__title">Сервис</h2>
+                </li>
+                <li class="menu__item">
+                  <img
+                    src="./images/menu-nav/sale.png"
+                    alt="sale"
+                    class="menu__icon"
+                  />
+                  <h2 class="menu__title">Акции</h2>
+                </li>
+              </ul>
+
+              <div class="wrapper-close">
+                <img src="./images/close.png" alt="close" data-menu-close />
+              </div>
+            </div>
+          </div>
+
+          <h1 class="logo">Roudster</h1>
+
           <div class="container-contact">
             <img
               src="./images/icons-mobile.png"
@@ -48,95 +125,8 @@
           </div>
         </div>
       </div>
-
-      <div class="main-line">
-        <div class="container">
-          <img
-            src="./images/icons-menu.png"
-            alt="menu"
-            class="menu"
-            data-menu-button
-          />
-
-          <div class="menu-container" data-menu>
-            <div class="wrapper-menu">
-              <h2 class="location">
-                <img src="./images/menu-nav/google-map.png" alt="Mark" />
-                <span>Днепр</span>
-              </h2>
-
-              <ul class="localization">
-                <li class="localization__item">UA</li>
-                <li class="localization__item">RU</li>
-              </ul>
-            </div>
-
-            <ul class="menu">
-              <li class="menu__item">
-                <img
-                  src="./images/menu-nav/catalog.png"
-                  alt="catalog"
-                  class="menu__icon"
-                />
-                <h2 class="menu__title">Каталог</h2>
-              </li>
-              <li class="menu__item">
-                <img
-                  src="./images/menu-nav/shop.png"
-                  alt="shop"
-                  class="menu__icon"
-                />
-                <h2 class="menu__title">Магазины</h2>
-              </li>
-              <li class="menu__item">
-                <img
-                  src="./images/menu-nav/client.png"
-                  alt="client"
-                  class="menu__icon"
-                />
-                <h2 class="menu__title">Клиентам</h2>
-              </li>
-              <li class="menu__item">
-                <img
-                  src="./images/menu-nav/service.png"
-                  alt="service"
-                  class="menu__icon"
-                />
-                <h2 class="menu__title">Сервис</h2>
-              </li>
-              <li class="menu__item">
-                <img
-                  src="./images/menu-nav/sale.png"
-                  alt="sale"
-                  class="menu__icon"
-                />
-                <h2 class="menu__title">Акции</h2>
-              </li>
-            </ul>
-
-            <div class="wrapper-close">
-              <img src="./images/close.png" alt="close" data-menu-close />
-            </div>
-          </div>
-
-          <div class="wrapper-search">
-            <form action="">
-              <input
-                type="text"
-                name=""
-                placeholder="Поиск..."
-                class="to-search"
-              />
-            </form>
-          </div>
-          <img
-            src="./images/icons-shopping.png"
-            alt="shopping"
-            class="shopping"
-          />
-        </div>
-      </div>
     </header>
+
     <main>
       <div class="section-wrapper container">
         <section class="section-swiper">

@@ -12,13 +12,4 @@
     refs.mobileContactRef.classList.toggle('is-open');
     document.body.classList.toggle('modal-open');
   }
-
-  function closeModal(e) {
-    console.log(e.currentTarget);
-    // if (e.target.nodeName !== 'A') {
-    //   return;
-    // }
-    // refs.mobileMenuRef.classList.toggle('is-open');
-    // document.body.classList.toggle('modal-open');
-  }
 })();

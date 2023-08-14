@@ -11,14 +11,14 @@
 
   refs.navigation.addEventListener('click', closeModal);
   function toggleModal() {
-    refs.mobileMenuRef.classList.toggle('is-open');
+    refs.mobileMenuRef.classList.toggle('is-open-menu');
     document.body.classList.toggle('modal-open');
   }
   function closeModal(e) {
     if (e.target.nodeName !== 'A') {
       return;
     }
-    refs.mobileMenuRef.classList.toggle('is-open');
+    refs.mobileMenuRef.classList.toggle('is-open-menu');
     document.body.classList.toggle('modal-open');
   }
 })();
