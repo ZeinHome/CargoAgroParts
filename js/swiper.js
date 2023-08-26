@@ -1,4 +1,4 @@
-new Swiper('.swiper', {
+new Swiper('.hero-swiper', {
   direction: 'horizontal',
   loop: true,
 
