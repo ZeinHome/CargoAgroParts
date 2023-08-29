@@ -1,0 +1,75 @@
+.desktop {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .box {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  .desktop {
+    display: flex;
+    align-items: center;
+    color: $white;
+  }
+  .items_label {
+    position: relative;
+    display: flex;
+    align-items: center;
+
+    margin-right: 20px;
+  }
+  .desktop-nav {
+    display: flex;
+    gap: 10px;
+
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .sity-name {
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 6px;
+    font-weight: 600;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+
+  .sity-name::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 110%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: $white;
+  }
+
+  .localization {
+    margin-left: 0;
+  }
+
+  .sity-name:hover,
+  .sity-name:focus,
+  .desktop-nav li:hover,
+  .desktop-nav li:focus,
+  .localization__item:hover,
+  .localization__item:focus {
+    color: $hover-text;
+  }
+
+  .time-work {
+    display: none;
+  }
+
+  @media screen and (min-width: 1200px) {
+    .time-work {
+      display: block;
+      color: $white;
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+}

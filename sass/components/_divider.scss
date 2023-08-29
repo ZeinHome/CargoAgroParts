@@ -1,0 +1,49 @@
+.section-divider {
+  color: $white;
+  background-color: $bg-primary;
+  padding: 20px 0;
+}
+
+.divider__text {
+  display: inline;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.wrapper-divider {
+  display: flex;
+  align-items: center;
+}
+
+.container-divider {
+  margin-top: 20px;
+}
+
+.divider__btn {
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: $hover-text;
+}
+
+@media screen and (min-width: 1024px) {
+  .divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .divider__text {
+    margin-left: 50px;
+  }
+  .container-divider {
+    margin-top: 0;
+  }
+  .divider__btn {
+    width: 300px;
+    padding: 15px 30px;
+  }
+
+  .wrapper-divider {
+    width: 600px;
+  }
+}
